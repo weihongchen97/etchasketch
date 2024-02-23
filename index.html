@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="heading">Etch-A-Sketch</h1>
+    <div>
+        <input id="colorPicker" type="color" value="#000" />
+        <button id="currentColor">Color</button>
+        <button id="colorRandom">Rainbow</button>
+        <button id="clearBoardBtn">Clear Board</button>
+        <input id="gridSize" type="range" min="2" max="20">
+        <button id="sizingBtn">Adjust Size</button>
+        <label for="sizeText" id="sizeText">""</label>
+    </div>
+    <div id="container"></div>
+    <script src="app.js"></script>
+</body>
+</html>
